@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="@color/purple_500"
+        app:title="@string/app_name"
+        app:titleTextColor="#fff"
+        app:menu="@menu/my_menu"
+        />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Third">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/textButton"
+                    android:layout_width="140dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round"
+                    android:text="@string/text"
+                    android:textSize="13sp"
+                    app:icon="@drawable/ic_baseline_text_fields_24"
+                    app:iconGravity="textTop"
+                    app:rippleColor="@color/white"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonButton"
+                    android:layout_width="140dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round"
+                    android:text="@string/button"
+                    android:textSize="13sp"
+                    app:icon="@drawable/ic_baseline_touch_app_24"
+                    app:iconGravity="textTop"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/inputsButton"
+                    android:layout_width="140dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round"
+                    android:text="@string/inputs"
+                    android:textSize="13sp"
+                    app:icon="@drawable/ic_baseline_add_24"
+                    app:iconGravity="textTop"
+                    tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/checkboxButton"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round"
+                    android:text="@string/checkbox"
+                    android:textSize="13sp"
+                    app:icon="@drawable/ic_baseline_check_box_24"
+                    app:iconGravity="textTop" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_column="1"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round"
+                    android:text="@string/radio"
+                    android:textSize="13sp"
+                    app:icon="@drawable/ic_baseline_radio_button_checked_24"
+                    app:iconGravity="textTop" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/modalButton"
+                    android:layout_width="140dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round"
+                    android:text="@string/alert"
+                    android:textSize="13sp"
+                    app:icon="@drawable/ic_baseline_inbox_24"
+                    app:iconGravity="textTop" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/switchButton"
+                    android:layout_width="140dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round"
+                    android:text="@string/Switch"
+                    android:textSize="13sp"
+                    app:icon="@drawable/ic_baseline_toggle_on_24"
+                    app:iconGravity="textTop" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/spinnerButton"
+                    android:layout_width="140dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round"
+                    android:text="@string/Spinner"
+                    android:textSize="13sp"
+                    app:icon="@drawable/ic_baseline_replay_24"
+                    app:iconGravity="textTop" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/timepickerButton"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round"
+                    android:backgroundTint="#8D228FE1"
+                    android:text="@string/timepicker"
+                    android:textSize="13sp"
+                    app:icon="@drawable/ic_baseline_access_time_24"
+                    app:iconGravity="textTop" />
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/datepickerButton"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round"
+                    android:text="@string/date_picker"
+                    android:textSize="13sp"
+                    app:icon="@drawable/ic_baseline_date_range_24"
+                    app:iconGravity="textTop" />
+            </TableRow>
+
+
+        </TableLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Text_click">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Welcome to Andriod Learning"
+        android:textColor="#86AD33"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:textSize="20dp"
+        android:textColor="#D50000"
+        android:textAllCaps="true" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Welcome to Andriod Learning"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#7F3AB5"
+        android:layout_marginBottom="25dp"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:textSize="18sp"
+        android:text="For more details send mail to support@andriodlearning.com" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="text_src"
+        android:text="SOURCE CODE"
+        android:textColor="#000000"
+        android:textColorHighlight="#171616"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+</LinearLayout>

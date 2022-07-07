@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Spinner_click">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="Progress Dialog"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="362dp"
+        android:layout_marginEnd="146dp"
+        android:text="download" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:foregroundGravity="center" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center"
+        android:onClick="spinner_src"
+        android:text="SOURCE CODE"
+        android:textColor="#000000"
+        android:textColorHighlight="#171616"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+</RelativeLayout>

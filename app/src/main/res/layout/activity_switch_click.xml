@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Switch_click">
+
+
+    <Switch
+        android:id="@+id/simpleSwitch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Switch 1"
+        android:textOff="Off"
+        android:layout_marginTop="110dp"
+        android:textOn="On"
+        android:textSize="30dp" />
+
+    <Switch
+        android:id="@+id/simpleSwitch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:checked="true"
+        android:text="Switch 2"
+        android:textOff="Off"
+        android:textOn="On" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:background="#009284"
+        android:padding="5dp"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="switch_src"
+        android:text="SOURCE CODE"
+        android:textColor="#000000"
+        android:textColorHighlight="#171616"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.andriodlearning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndriodLearning"
+        tools:targetApi="31">
+        <activity
+            android:name=".About_webview"
+            android:exported="false" />
+        <activity
+            android:name=".Button_webview"
+            android:exported="false" />
+        <activity
+            android:name=".Datapicker_click"
+            android:exported="false" />
+        <activity
+            android:name=".Radio_webview"
+            android:exported="false" />
+        <activity
+            android:name=".Text_webview"
+            android:exported="false" />
+        <activity
+            android:name=".Timepicker_click"
+            android:exported="false" />
+        <activity
+            android:name=".Inputs_webview"
+            android:exported="false" />
+        <activity
+            android:name=".Datepicker_webview"
+            android:exported="false" />
+        <activity
+            android:name=".Alert_webview"
+            android:exported="false" />
+        <activity
+            android:name=".Timepicker_webview"
+            android:exported="false" />
+        <activity
+            android:name=".Switch_webview"
+            android:exported="false" />
+        <activity
+            android:name=".Spinner_webview"
+            android:exported="false" />
+        <activity
+            android:name=".Checkbox_webview"
+            android:exported="false" />
+        <activity
+            android:name=".Spinner_click"
+            android:exported="false" />
+        <activity
+            android:name=".Alert_click"
+            android:exported="false" />
+        <activity
+            android:name=".Switch_click"
+            android:exported="false" />
+        <activity
+            android:name=".Radio_click"
+            android:exported="false" />
+        <activity
+            android:name=".Chechbox_click"
+            android:exported="false" />
+        <activity
+            android:name=".Inputs_click"
+            android:exported="false" />
+        <activity
+            android:name=".Button_click"
+            android:exported="false" />
+        <activity
+            android:name=".Text_click"
+            android:exported="false" />
+        <activity
+            android:name=".Third"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
